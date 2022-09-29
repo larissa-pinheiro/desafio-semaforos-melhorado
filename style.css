@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(236, 233, 233);
+  height: 100%;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.trafficLights {
+  display: flex;
+  gap: 5px;
+}
+
+.trafficLights > .container {
+  background-color: rgb(22, 24, 22);
+  width: 70px;
+  height: 200px;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+button {
+  background-color: rgba(0, 128, 49, 0.514);
+  color: rgb(38, 70, 38);
+  font-size: 18px;
+
+  width: 70px;
+  height: 50px;
+
+  border-radius: 5px;
+  border: 1px solid rgb(166, 209, 149);
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(0, 128, 79, 0.781);
+}
+
+button:active {
+  transform: scale(0.98);
+  transition: 1ms;
+}

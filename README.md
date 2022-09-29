@@ -25,7 +25,7 @@
 
 ### Atualização
 
-Nesta versão o código foi abstraído de forma a não duplicar código.
+Versão abstraída com o intuito de diminuir sua duplicação de código.
 
 ### Link
 
